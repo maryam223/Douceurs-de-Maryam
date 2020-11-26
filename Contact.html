@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="pages.css">
+<head>
+	<title>Nos Pâtisseries - Les Douceurs de Maryam</title>
+</head>
+
+<body>
+	<div id = "bloc_page">
+		<header>
+			<div id="titre_principal">
+				<div id = "logo">
+					<h1><a href="index.html">Les douceurs de Maryam</a></h1>
+				</div>	
+			</div>	
+
+			<nav>
+				<ul>
+					<li><a href="NosPatisseries.html">Nos Pâtisseries</a></li>
+					<li><a href="NosRecettes.html">Nos Recettes</a></li>
+					<li><a href="LivreDor.html">Livre d'Or</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="contenu_contact">
+
+			<p>Vous souhaitez déguster une de nos créations pour un événement ou tout simplement par gourmandise, n'hésitez pas à nous contacter ! Remplissez ce formulaire et nous vous répondrons le plus rapidement possible !</p>
+			
+			<form method="post" action="traitement.php">
+				<label for="nom"></label><input type="text" name="NOM" placeholder = "NOM"><br>
+				<label for="prenom"></label><input type="text" name="Prénom" placeholder = "Prénom"><br>
+				<label for="mail"></label><input type="email" name="Adresse mail" placeholder = "Adresse mail"><br>
+				<label for="tel"></label><input type="tel" name="Numéro de téléphone" placeholder = "Numéro de téléphone"><br>
+				<label for="pastry"></label><input type="text" name="Pâtisserie souhaitée" placeholder = "Pâtisserie souhaitée"><br><br>
+				<label for="message"></label><textarea type="text" name="Votre Message" placeholder = "Votre Message"></textarea><br>
+				<input id="bouton_envoi" type= "submit"  name="Envoyer">
+				
+			</form>
+
+		</div>
+
+		
+
+	</div>
+
+</body>
+</html>

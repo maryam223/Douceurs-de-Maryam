@@ -1,0 +1,105 @@
+body
+{
+	background: url(img/eclair.jpg) no-repeat;
+}
+
+@font-face
+{
+	font-family: BartesMalaga;
+	src:url('polices/BartesMalaga.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: GreatVibes;
+	src:url('polices/GreatVibes.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: KeithGordon;
+	src:url('polices/KeithGordon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#titre_principal a{
+	color: white;
+	font-family: 'GreatVibes';
+	font-size : 1.5em;
+	margin: 0 0 0 10px;
+	text-decoration: underline overline;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	padding-top: 40px;
+}
+
+nav li
+{
+	margin-right: 35px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+
+}
+
+#citation
+{
+	color: white;
+	font-family: 'BartesMalaga';
+	font-size: 6em;
+	opacity: 0.6;
+	position: absolute;
+	top: 61%;
+	left: 3%;
+}
+
+#bouton a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+#bouton
+{
+	border: solid #d66e5e;
+	border-radius: 10px;
+	background: #d66e5e;
+	height: 25px;
+	width: 200px;
+	padding: 10px 5px 10px 5px;
+	box-shadow: 6px 6px 6px #75453e;
+	position: absolute;
+	top: 82%;
+	left: 70%;
+}
+
+#bouton:hover{
+	transition-duration: 300ms;
+	transform: scale(1.1);
+}
+

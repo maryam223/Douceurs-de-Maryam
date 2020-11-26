@@ -1,0 +1,187 @@
+header
+{
+	background: url(img/eclair.jpg);
+	
+}
+
+body{
+	background: #faede1;
+
+}
+
+@font-face
+{
+	font-family: BartesMalaga;
+	src:url('polices/BartesMalaga.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: GreatVibes;
+	src:url('polices/GreatVibes.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: KeithGordon;
+	src:url('polices/KeithGordon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#titre_principal a{
+	color: white;
+	font-family: 'GreatVibes';
+	font-size : 1.5em;
+	margin: 0 0 0 10px;
+	text-decoration: underline overline;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	padding-top: 40px;
+}
+
+nav li
+{
+	margin-right: 35px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+
+}
+
+h2{
+	font-family: 'KeithGordon';
+	font-size : 2.3em;
+}
+
+figure
+{
+display: flex;
+align-items: center;
+font-family: 'BartesMalaga';
+font-size: 4em;
+}
+
+
+
+figcaption {
+	padding : 100px 50px 20px 30px;
+	color: #4d321c;
+}
+
+.droite{
+	float: right;
+}
+
+#contenu_recettes input{
+	border-radius: 25px;
+	width: 800px;
+	text-align: center;
+	background: #fff7e6;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+#contenu_recettes{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+#ill_recette, #recette {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+#ill_recette h3{
+	margin-top: 15%;
+	font-family: 'BartesMalaga';
+	font-size: 5em;
+}
+
+#recette{
+	display: flex;
+	justify-content: space-around;
+	font-family: Arial;
+}
+
+.etapes{
+	font-weight: bold;
+	list-style: none;
+	font-size: 1.5em;
+}
+
+#avis
+{
+	font-family: 'Times New Roman';
+	font-size: 0.7em;
+	font-style: italic;
+	margin: auto;
+}
+
+
+input {
+	width: 300px;
+	height: 40px;
+	border-radius: 18px;
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	border : 1px solid gray;
+}
+
+textarea{
+	width: 800px;
+	height: 200px;
+	border-radius: 18px;
+	font-family: 'Times New Roman';
+	font-size: 1.2em;
+}
+
+#contenu_contact p{
+	font-family: Arial;
+	font-size: 1.2em;
+}
+
+#bouton_envoi {
+	background: brown;
+	color: white;
+	border-radius: 5px;
+	width: 75px;
+	padding-left: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	box-shadow:  2px 4px 5px black;
+}
+
+footer {
+	bottom: 0;
+}
+
+::placeholder {
+	opacity: 0.4;
+}
